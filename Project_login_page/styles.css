@@ -1,0 +1,179 @@
+body {
+  background-color: #fff0e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #10162f;
+}
+.form-forger-pwd {
+  color: #3a10e5;
+  margin-top: 20px;
+}
+.form-forger-pwd:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.form-button {
+  margin-top: 20px;
+  width: 30ch;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #3a10e5;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  transition: 300ms;
+}
+.form-button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+/* Design thằng foooter */
+footer {
+  display: flex;
+  /* border: 3px solid black; */
+  gap: 10px;
+}
+.social .fb-logo img {
+  width: 25px; /* Khúc này t điều chỉnh chiều rộng của logo */
+}
+.fb-logo {
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%; /*chiều rộng của khối này = 20% chiều rộng của thằng footer*/
+  background-color: white;
+  transition: 300ms;
+  cursor: pointer;
+}
+.fb-logo:hover {
+  background-color: rgba(138, 136, 136, 0.248);
+}
+.social .gg-logo img {
+  width: 25px; /* Khúc này t điều chỉnh chiều rộng của logo */
+}
+.gg-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 20%; /*chiều rộng của khối này = 20% chiều rộng của thằng footer*/
+  background-color: white;
+  cursor: pointer;
+  transition: 300ms;
+}
+.gg-logo:hover {
+  background-color: rgba(138, 136, 136, 0.248);
+}
+.social .github-logo img {
+  width: 25px; /* Khúc này t điều chỉnh chiều rộng của logo */
+}
+.github-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 20%; /*chiều rộng của khối này = 20% chiều rộng của thằng footer*/
+  background-color: white;
+  cursor: pointer;
+  transition: 300ms;
+}
+.github-logo:hover {
+  background-color: rgba(138, 136, 136, 0.248);
+}
+.social .linkedin-logo img {
+  width: 25px; /* Khúc này t điều chỉnh chiều rộng của logo */
+}
+.linkedin-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 20%; /*chiều rộng của khối này = 20% chiều rộng của thằng footer*/
+  background-color: white;
+  cursor: pointer;
+  transition: 300ms;
+}
+.linkedin-logo:hover {
+  background-color: rgba(138, 136, 136, 0.248);
+}
+/* Làm cái dòng mà nếu chưa có tài khoản thì đăng ký */
+.Member {
+  margin-top: 20px;
+}
+.Member p {
+  display: inline;
+}
+.Member a {
+  color: #3a10e5;
+}
+.Member a:hover {
+  text-decoration: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 10px 0;
+}
+form input {
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+  form label {
+    font-size: 17px;
+  }
+  .form-button {
+    width: 30%;
+    font-size: 15px;
+  }
+  form input {
+    width: 70%;
+  }
+  .social {
+    width: 80%;
+  }
+}
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 36px;
+  }
+  form label {
+    font-size: 20px;
+  }
+  .form-button {
+    width: 91%;
+    font-size: 20px;
+  }
+  form input {
+    width: 90%;
+    height: 40px;
+  }
+  .social {
+    width: 110%;
+  }
+  .form-forger-pwd {
+    font-size: 22px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .Member a {
+    font-size: 20px;
+  }
+}
