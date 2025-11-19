@@ -126,10 +126,16 @@ form input {
   height: 30px;
   font-size: 15px;
   border: none;
-  border: 0.5px solid grey;
+  border: 0.01px solid grey;
   border-radius: 5px;
   padding: 7px;
   box-sizing: border-box;
+  outline: none;
+  transition: 200ms;
+}
+form input:focus{
+  box-shadow: 2px 4px 3px 1px #c1e0ff,
+  -2px -4px 3px 1px #c1e0ff;
 }
 @media (max-width: 768px) {
   h1 {
@@ -177,3 +183,4 @@ form input {
     font-size: 20px;
   }
 }
+
